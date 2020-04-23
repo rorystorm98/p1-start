@@ -7,6 +7,9 @@ How to get:
 First clone my p1-start repository from https://github.com/rorystorm98/p1-start
 
 To run this code you need to use the plot.py file that has the actual code in it. The files that I plotted are in the RAW-DATA file. It should show a graph of your data and a linear fit of the data. Then run python plot.py <name of file you want to run> 
+
+Example.  $ python plot.py raw-data/Sp15_245L_sect-001_group-1_glass.raw
+
 Once the graph is closed if should also print the Youngs Modulus of your data. This code should be able to be used with different data if it is formatted the same as the data in this repository and starts on line 33.
 
 Files in this repository:
