@@ -1,0 +1,8 @@
+How to get:
+Clone my p1-start repository from https://github.com/rorystorm98/p1-start
+
+To run this program you will need access to a local terminal on your computer and be able to use matplot, python and numpy.
+
+To run this code you need to use the plot.py file that has the actual code in it. Then run python plot.py <name of file you want to run> The files that I plotted are in the RAW-DATA file. It should show a graph of your data and a linear fit of the data. Once the graph is closed if should also print the Youngs Modulus of your data. This code should be able to be used with different data if it is formatted the same as the data in this repository and starts on line 33.
+
+During this project I have learned that it is important to stay organized and that using complicated file names can add to toe amount of work that you have to do since it is easier to make mistakes the longer you type. This project also gave me alot of practice using the HJKL keys for navigation in vim. I am still having difficuly defaulting to those keays though since I am so used to using the arrow keys. 
