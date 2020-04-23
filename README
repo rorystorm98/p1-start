@@ -10,7 +10,8 @@ To run this code you need to use the plot.py file that has the actual code in it
 
 Example.  $ python plot.py raw-data/Sp15_245L_sect-001_group-1_glass.raw
 
-Once the graph is closed if should also print the Youngs Modulus of your data. This code should be able to be used with different data if it is formatted the same as the data in this repository and starts on line 33.
+Once you run the code a graph of the data should open and save. you will need to format the graphs spacing since it can sometimes cut off the label for the y axis.
+Once the graph is closed if should also print the Youngs Modulus of your data in MPa. This code should be able to be used with different data aslong as it is formatted the same as the data in this repository and starts on line 33.
 
 Files in this repository:
 
