@@ -10,8 +10,7 @@ The files that I plotted are in the RAW-DATA file. It should show a graph of you
 Once the graph is closed if should also print the Youngs Modulus of your data. This code should be able to be used with different data if it is formatted the same as the data in this repository and starts on line 33.
 
 Files in this repository:
-raw-data
-The data I wrote this program for, all files are formatted for this code besides Sp15_245L_sec-001_group-01_bendtest-aluminum.raw and Sp15_245L_sec-001_group-01_bendtest-tungsten.raw.
+raw-data is the file with all of the data I wrote this program for, all files are formatted for this code besides Sp15_245L_sec-001_group-01_bendtest-aluminum.raw and Sp15_245L_sec-001_group-01_bendtest-tungsten.raw.
 See aluminum1.raw through aluminum3.raw files for aluminum values and tungsten1.raw through tungsten3.raw files for tungsten values.
 README is this file
 contributors.txt is the list of people that contributed to this repository
