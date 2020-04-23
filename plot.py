@@ -8,18 +8,19 @@ data = np.loadtxt(filename,skiprows=32,delimiter=",")   # Attempts to load filen
 Stress= data[:,3]
 Strain= data[:,7]
 plt.plot(-Strain,-Stress,color="r",linestyle="-",label="data")
-plt.title('Stress vs Strain')
-plt.xlabel('Strain (%)')
-plt.ylabel('Stress (MPa)')
+plt.title("Stress vs Strain")
+plt.xlabel("Strain (%)")
+plt.ylabel("Stress (MPa)")
 Slope, yint=np.polyfit(Strain,Stress,1)
 Linear_Regression=np.poly1d((Slope,yint))
 plt.plot(-Strain,-Linear_Regression(Strain),color="g",linestyle="--",label="Linear Regression")
 plt.legend(loc="best")
+plt.savefig(filename= ".pdf")
 plt.show()
 
-print("Youngs Modulus =")
+print("Youngs Modulus")
+print("=")
 print(Slope)
-print("MPa")
 
 ## Part 0
 # Figure out what arguments to add to the loadtxt function call
