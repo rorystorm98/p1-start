@@ -3,7 +3,7 @@ import numpy as np
 import sys
 
 filename = sys.argv[1]        # Stores ARG1 in filename, as in: $ python plot.py ARG1 ARG2 
-data = np.loadtxt(filename)   # Attempts to load filename into local variable data.
+data = np.loadtxt(filename,skiprows=32,delimiter=",")   # Attempts to load filename into local variable data.
 
 ## Part 0
 # Figure out what arguments to add to the loadtxt function call
@@ -21,7 +21,22 @@ data = np.loadtxt(filename)   # Attempts to load filename into local variable da
 # Make sure to include axis labels and units!
 # plt.plot(xdata,ydata, arguments-to-make-plot-pretty)
 
+Stress= data[:,3]
+Strain= data[:,7]
+plt.plot(-Strain,-Stress,color="r",linestyle="-",label="data")
+plt.title('Stress vs Strain')
+plt.xlabel('Strain (%)')
+plt.ylabel('Stress (MPa)')
+Slope, yint=np.polyfit(Strain,Stress,1)
+LR=np.poly1d((Slope,yint))
+plt.plot(-Strain,-LR(Strain),color="g",linestyle="--",label="Linear Regression")
+plt.legend(loc="best")
 
+plt.show()
+
+print("Youngs Modulus =")
+print(Slope)
+print("MPa")
 ## Part 2
 # Check to see if your code in part 1 will plot all of the files in raw-data/
 # Edit the files (use git liberally here!) to make them more usable
@@ -32,7 +47,6 @@ data = np.loadtxt(filename)   # Attempts to load filename into local variable da
 # the stress-strain data. Plot your line against the data to make 
 # sure it makes sense! Use the slope of this line to calculate and print
 # the Young's modulus (with units!)
-
 
 ## Part 4
 # Modify your code to save your plots to a file and see if you can generate
