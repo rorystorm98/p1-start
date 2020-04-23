@@ -1,15 +1,19 @@
 How to get:
+
 Clone my p1-start repository from https://github.com/rorystorm98/p1-start
 
 System requirements:
+
 You will need access to a local terminal on your computer and be able to use matplot, python and numpy.
 
 How to use code:
+
 To run this code you need to use the plot.py file that has the actual code in it. Then run python plot.py <name of file you want to run> 
 The files that I plotted are in the RAW-DATA file. It should show a graph of your data and a linear fit of the data.
 Once the graph is closed if should also print the Youngs Modulus of your data. This code should be able to be used with different data if it is formatted the same as the data in this repository and starts on line 33.
 
 Files in this repository:
+
 raw-data is the file with all of the data I wrote this program for, all files are formatted for this code besides Sp15_245L_sec-001_group-01_bendtest-aluminum.raw and Sp15_245L_sec-001_group-01_bendtest-tungsten.raw.
 See aluminum1.raw through aluminum3.raw files for aluminum values and tungsten1.raw through tungsten3.raw files for tungsten values.
 README is this file
@@ -17,6 +21,7 @@ contributors.txt is the list of people that contributed to this repository
 plot.py contains the code used to create Stress vs Strain graphs.
 
 What I learned:
+
 During this project I have learned how important it is to stay organized when saving and modifying files and that using complicated file names can add to to amount of work that you have to do since it is easier to make mistakes with longer file names. 
 This project also gave me alot of practice using the HJKL keys for navigation in vim. I am still having difficuly defaulting to those keays though since I am so used to using the arrow keys.
 It is also helpful to make commits often so it is easier to track changes and for a project where a certain number of commits are required it helps fill that requirement like I should have done for this project. Once you have finished your code it is really difficult to find ways to make extra commits.
