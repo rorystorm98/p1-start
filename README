@@ -24,6 +24,6 @@ What I learned:
 
 During this project I have learned how important it is to stay organized when saving and modifying files and that using complicated file names can add to to amount of work that you have to do since it is easier to make mistakes with longer file names. 
 This project also gave me alot of practice using the HJKL keys for navigation in vim. I am still having difficuly defaulting to those keays though since I am so used to using the arrow keys.
-It is also helpful to make commits often so it is easier to track changes and for a project where a certain number of commits are required it helps fill that requirement like I should have done for this project. Once you have finished your code it is really difficult to find ways to make extra commits.
+It is also helpful to make commits often, even if they are small, so it is easier to track changes and for a project where a certain number of commits are required it helps fill that requirement like I should have done for this project. Trying to make 25 commits for this project was alot harder than I thought it would be since I forgot that it was a requirment until I was almost completly finished with my code so I had to make a large number of commits that just changed the way my files look.
 
 Overall I feel like this project really helped me understand what we have been covering in class and showed a good real world example of how coding can make projects easier once you understand it.
