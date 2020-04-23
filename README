@@ -8,7 +8,7 @@ To run this code you need to use the plot.py file that has the actual code in it
 The files that I plotted are in the RAW-DATA file. It should show a graph of your data and a linear fit of the data.
 Once the graph is closed if should also print the Youngs Modulus of your data. This code should be able to be used with different data if it is formatted the same as the data in this repository and starts on line 33.
 
-During this project I have learned how it is important to stay organized when savinf and modifying files and that using complicated file names can add to to amount of work that you have to do since it is easier to make mistakes with longer file names. 
+During this project I have learned how it is important to stay organized when saving and modifying files and that using complicated file names can add to to amount of work that you have to do since it is easier to make mistakes with longer file names. 
 This project also gave me alot of practice using the HJKL keys for navigation in vim. I am still having difficuly defaulting to those keays though since I am so used to using the arrow keys.
 
 Overall I feel like this project really helped me understand what we have been covering in class and showed a good real world example of how coding can make projects easier once you understand it.
