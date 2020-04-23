@@ -31,12 +31,12 @@ Slope, yint=np.polyfit(Strain,Stress,1)
 LR=np.poly1d((Slope,yint))
 plt.plot(-Strain,-LR(Strain),color="g",linestyle="--",label="Linear Regression")
 plt.legend(loc="best")
-
 plt.show()
 
 print("Youngs Modulus =")
 print(Slope)
 print("MPa")
+
 ## Part 2
 # Check to see if your code in part 1 will plot all of the files in raw-data/
 # Edit the files (use git liberally here!) to make them more usable
